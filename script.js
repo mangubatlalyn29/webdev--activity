@@ -24,10 +24,10 @@ var description = document.getElementById("description");
     body.classList.remove("oswald");
     body.classList.remove("bilbo");
     body.classList.add("rye");
-    body.style.backgroundColor = "#c3c7f4";
-    body.style.color = "#f1f1f1";
+    body.style.backgroundColor = "#c8a8e9";
+    body.style.color = "#000";
     image.src = "./girl.jpeg";
-    description.style.backgroundColor = "#c8a8e9";
+    description.style.backgroundColor = "#c3c7f4";
     description.innerText = "Lalyn L. Mangubat, an 18-year-old first-year college student at the University of Cebu-Main, is part of the College of Computer Studies, pursuing a Bachelor of Science in Information Technology (BSIT). Though she has embraced her path in IT, she once dreamt of a career in the medical field. Determined and fearless, Lalyn faces challenges head-on, embodying a strong and resilient spirit. She has a soft spot for the elegance of roses, but fresh lumpia is definitely not her thing. Lalyn is a blend of ambition and authenticity, carving her own path with grace and tenacity.";
     title.innerText = "Resilient Dreamer";
 }
