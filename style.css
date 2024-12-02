@@ -44,6 +44,7 @@ body, html{
     flex-direction: column;
     align-items: center;
     width: 50%;
+    font-size: inherit;
 }
 
 img{
@@ -94,12 +95,18 @@ button:hover{
     text-align: justify;    
 }
 
+.bilbo img{
+    flex:full;
+    width: 30%;
+    height: auto;
+}
 
-.bilbo p{
-    font-size: 1.5rem;
+.bilbo p,.bilbo #content{
+    width:90%;
+    font-size: 48px;
 }
 
 .bilbo button{
-    font-size: 1.3rem;
+    font-size: 32px;
 
 }
